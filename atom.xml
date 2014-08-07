@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://HackspaceCDF.github.io/atom.xml" rel="self"/>
-  <link href="http://HackspaceCDF.github.io/"/>
-  <updated>2014-08-07T19:32:04+01:00</updated>
-  <id>http://HackspaceCDF.github.io/</id>
+  <title><![CDATA[HackspaceCDF]]></title>
+  <link href="http://HackspaceCDF.org/atom.xml" rel="self"/>
+  <link href="http://HackspaceCDF.org/"/>
+  <updated>2014-08-07T20:03:49+01:00</updated>
+  <id>http://HackspaceCDF.org/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Hackspace Cardiff]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

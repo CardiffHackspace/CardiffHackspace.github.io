@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://HackspaceCDF.github.io/sitemap.xml 
+Sitemap: http://HackspaceCDF.org/sitemap.xml 
