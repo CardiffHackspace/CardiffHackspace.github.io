@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://HackspaceCDF.org
-title: HackspaceCDF
-subtitle: Hackspace Cardiff
+title: Hackspace Cardiff
+subtitle: '@HackspaceCDF'
 author: Hackspace Cardiff
 simple_search: https://www.google.com/search
-description:
+description: A hackspace in Cardiff (UK). Open night Tuesday 6.30pm - late.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

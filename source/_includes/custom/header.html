@@ -1,5 +1,7 @@
 <hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+  {% assign title_words = site.title | split: ' ' %}
+  {% capture remaining_words %}{% for word in title_words offset:1 %}{{ word }}{% if forloop.last == false %} {% endif %}{% endfor %}{% endcapture %}
+  <h1 class="logo"><a href="{{ root_url }}/"><span class="logo-first-word">{{title_words.first}} </span><span class="logo-remaining-words">{{ remaining_words }}</span></a></h1>
   {% if site.subtitle %}
     <h2>{{ site.subtitle }}</h2>
   {% endif %}

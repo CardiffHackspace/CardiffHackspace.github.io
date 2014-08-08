@@ -1,11 +1,26 @@
 body > header {
   background: $header-bg;
   h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2em;
+    line-height: 1em;
     display: inline-block;
     margin: 0;
+    padding: 0.5em 0 0 3.25em;
+    height: 2.5em;
+    background: url('/images/hackspace_cardiff_logo_400x400.png') no-repeat 0 0;
+    background-size: 3em;
+    text-transform: uppercase;
+
     a, a:visited, a:hover {
-      color: $title_color;
+      color: $logo-color-1;
       text-decoration: none;
+    }
+    span.logo-first-word {
+        display: block;
+    }
+    span.logo-remaining-words {
+        color: $logo-color-2;
     }
   }
   h2 {
